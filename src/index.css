@@ -1,3 +1,58 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+    @font-face {
+        font-family: "Inter";
+        src: url("../../../../../../src/assets/fonts/Inter-Regular.ttf");
+    }
+    
+    @font-face {
+        font-family: "openSans";
+        src: url("../../../../../../src/assets/fonts/OpenSans-Regular.ttf");
+    }
+
+    @font-face {
+        font-family: "montserrat";
+        src: url("../../../../../../src/assets/fonts/Montserrat-Regular.ttf");
+    }
+
+    .font-inter {
+        font-family: "Inter";
+    }
+
+    .font-openSans {
+        font-family: "openSans";
+    }
+
+    .font-montserrat {
+        font-family: "montserrat";
+    }
+
+    #menu {
+        @apply w-8 h-5 flex flex-col justify-between items-center cursor-pointer sm:hidden
+    }
+
+    #menu span {
+        @apply w-full h-0.5 bg-white transition-all duration-300
+    }
+
+    .firstSpan {
+        @apply rotate-45 origin-left -translate-y-1
+    }
+
+    .secondSpan {
+        @apply scale-0
+    }
+
+    .thirdSpan {
+        @apply -rotate-45 origin-left
+    }
+}
+
+@layer components {
+    .nav-menu {
+        @apply p-3 rounded-full transition-all duration-300 hover:bg-white hover:text-primary
+    }
+}

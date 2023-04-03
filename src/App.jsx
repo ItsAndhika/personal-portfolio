@@ -1,11 +1,13 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
+import './script/script'
+import Navbar from './components/Navbar'
+import Hero from './components/Hero'
 
 function App() {
   return (
-    <div className="App">
-      <h1 className="text-blue-600 font-bold text-6xl text-center">React + Tailwindcss</h1>
+    <div className="App bg-primary font-inter overflow-x-hidden">
+      <Navbar />
+      <Hero />
     </div>
   )
 }
