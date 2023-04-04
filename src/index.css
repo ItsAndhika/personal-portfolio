@@ -53,6 +53,10 @@
 
 @layer components {
     .nav-menu {
-        @apply p-3 rounded-full transition-all duration-300 hover:bg-white hover:text-primary
+        @apply p-3 rounded-full transition-all duration-300 hover:text-sky-500 md:px-5 md:py-4 md:ml-0.5 lg:px-6 lg:py-5 lg:ml-3 lg:text-lg 
+    }
+
+    .about-me {
+        @apply w-1/2 mx-auto text-lg font-medium text-center sm:text-xl md:mx-10 lg:text-2xl
     }
 }
