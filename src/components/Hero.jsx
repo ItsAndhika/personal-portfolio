@@ -5,7 +5,7 @@ import Typewriter from 'typewriter-effect'
 const Hero = () => {
   return (
     <div id='home' className='container max-w-full min-w-[360px] h-screen pt-14 lg:flex lg:flex-row-reverse lg:justify-between lg:items-center'>
-		<div id='circle' className='absolute bg-sky-600 w-40 h-40 top-80 left-64 rounded-full blur-[100px]'></div>
+		<div id='circle' className='absolute bg-sky-600 w-40 h-40 top-96 left-40 rounded-full blur-[100px] sm:left-60 md:left-80 lg:top-80'></div>
         <img src={Programmer} alt="Programmer" loading='lazy' className='w-72 mx-auto lg:w-1/2 lg:mr-28 lg:place-content-end'/>
 		<div id='content' className='text-center lg:mx-auto'>
 				<a href="https://m.facebook.com/profile.php?id=100056986006962">
