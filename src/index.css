@@ -3,31 +3,18 @@
 @tailwind utilities;
 
 @layer base {
-    @font-face {
-        font-family: "Inter";
-        src: url("../../../../../../src/assets/fonts/Inter-Regular.ttf");
-    }
-    
-    @font-face {
-        font-family: "openSans";
-        src: url("../../../../../../src/assets/fonts/OpenSans-Regular.ttf");
-    }
-
-    @font-face {
-        font-family: "montserrat";
-        src: url("../../../../../../src/assets/fonts/Montserrat-Regular.ttf");
-    }
+    @import url('https://fonts.googleapis.com/css2?family=Inter&family=Montserrat&family=Open+Sans&display=swap');
 
     .font-inter {
-        font-family: "Inter";
+        font-family: "Inter", sans-serif;
     }
 
     .font-openSans {
-        font-family: "openSans";
+        font-family: "openSans", sans-serif;
     }
 
     .font-montserrat {
-        font-family: "montserrat";
+        font-family: "montserrat", sans-serif;
     }
 
     #menu {
