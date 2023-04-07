@@ -4,9 +4,9 @@ import Typewriter from 'typewriter-effect'
 
 const Hero = () => {
   return (
-    <div id='home' className='container max-w-full min-w-[360px] h-screen pt-14 lg:flex lg:flex-row-reverse lg:justify-between lg:items-center'>
+    <div id='home' className='container max-w-full h-screen pt-14 lg:flex lg:flex-row-reverse lg:justify-between lg:items-center'>
 		<div id='circle' className='absolute bg-sky-600 w-40 h-40 top-96 left-40 rounded-full blur-[100px] sm:left-60 md:left-80 lg:top-80'></div>
-        <img src={Programmer} alt="Programmer" loading='lazy' className='w-72 mx-auto lg:w-1/2 lg:mr-28 lg:place-content-end'/>
+        <img src={Programmer} alt="Programmer" loading='lazy' className='w-60 mx-auto lg:w-1/2 lg:mr-28 lg:place-content-end'/>
 		<div id='content' className='text-center lg:mx-auto'>
 				<a href="https://m.facebook.com/profile.php?id=100056986006962">
 					<svg
@@ -56,8 +56,8 @@ const Hero = () => {
 					</svg>
 				</a>
 			<div className='text-center lg:mr-3 lg:text-left lg:w-2/3 lg:ml-40'>
-				<h1 className='bg-gradient-to-r from-blue-600 via-purple-600 to-teal-600 bg-clip-text text-transparent text-3xl font-bold sm:text-5xl'>Primananda Andhika</h1>
-				<div className='text-2xl flex justify-center items-center my-2 lg:text-3xl lg:justify-start'>
+				<h1 className='bg-gradient-to-r from-blue-600 via-purple-600 to-teal-600 bg-clip-text text-transparent text-2xl font-bold sm:text-5xl'>Primananda Andhika</h1>
+				<div className='text-xl flex justify-center items-center my-2 lg:text-2xl lg:justify-start'>
 				<p className='text-sky-500 font-semibold mr-1.5'>I'm a </p>
 				<Typewriter 
 					options={{
@@ -70,7 +70,7 @@ const Hero = () => {
 				/>
 				</div>
 				<p
-					className="text-white mb-5 mx-auto w-2/3 font-semibold text-center font-montserrat text-lg lg:text-xl lg:text-left lg:w-full"
+					className="text-white mb-5 mx-auto w-2/3 font-semibold text-center font-montserrat text-base lg:text-lg lg:text-left lg:w-full"
 				>
 					A Junior
 					<span
