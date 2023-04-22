@@ -80,7 +80,7 @@ const Hero = () => {
 					who Wants to be a Better Person Everyday by Learn Anything that I
 					Like to do
 				</p>
-				<a href='#about' className='px-5 py-3 bg-blue-600 text-base rounded-full mb-5 hover:bg-blue-500 sm:text-lg lg:text-xl'>About Me &#8595;</a>
+				<a href='#about' className='px-5 py-3 border border-sky-600 text-sky-600 text-base mb-5 hover:text-white sm:text-lg lg:text-xl'>About Me</a>
 			</div>
 		</div>
     </div>
