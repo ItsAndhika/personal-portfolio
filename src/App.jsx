@@ -1,15 +1,14 @@
-import { useState } from 'react'
 import './script/script'
-import Navbar from './components/Navbar'
-import Hero from './components/Hero'
-import About from './components/About'
-import Skills from './components/Skills'
-import Contact from './components/Contact'
-import Footer from './components/Footer'
+import Navbar from './components/navbar/Navbar'
+import Hero from './components/hero/Hero'
+import About from './components/about/About'
+import Skills from './components/skills/Skills'
+import Contact from './components/contact/Contact'
+import Footer from './components/footer/Footer'
 
 function App() {
   return (
-    <div className="App dark:bg-primary dark:text-white font-inter overflow-x-hidden">
+    <div className="dark:bg-primary dark:text-white font-inter overflow-x-hidden">
       <Navbar />
       <Hero />
       <About />

@@ -1,6 +1,6 @@
 import { React, useState } from 'react'
-import FrontSkills from './FrontSkills'
-import BackSkills from './BackSkills'
+import FrontSkills from './parts/FrontSkills'
+import BackSkills from './parts/BackSkills'
 
 const Skills = () => {
   const [frontActive, setFrontActive] = useState(true)

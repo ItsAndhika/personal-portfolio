@@ -1,10 +1,10 @@
 import React from 'react'
-import HTML from '../assets/svg/html.svg'
-import CSS from '../assets/svg/css.svg'
-import Javascript from '../assets/svg/javascript.svg'
-import Bootstrap from '../assets/svg/bootstrap.svg'
-import Tailwind from '../assets/svg/tailwind.svg'
-import Reactjs from '../assets/svg/react.svg'
+import HTML from '../../../assets/svg/html.svg'
+import CSS from '../../../assets/svg/css.svg'
+import Javascript from '../../../assets/svg/javascript.svg'
+import Bootstrap from '../../../assets/svg/bootstrap.svg'
+import Tailwind from '../../../assets/svg/tailwind.svg'
+import Reactjs from '../../../assets/svg/react.svg'
 
 const FrontSkills = () => {
   return (

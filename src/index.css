@@ -17,6 +17,11 @@
         font-family: "montserrat", sans-serif;
     }
 
+    .body-blur {
+        filter: blur(12px);
+        -webkit-filter: blur(12px);
+    }
+
     #menu {
         @apply w-7 h-4 flex flex-col justify-between items-center cursor-pointer sm:hidden
     }
