@@ -48,7 +48,7 @@ const FrontSkills = () => {
         <img src={Reactjs} alt="" className='w-8 sm:w-10'/>
         <div className='text-center font-montserrat'>
             <h1 className='text-lg font-semibold'>React.js</h1>
-            <p className='text-base font-medium'>Pre-Intermediate</p>
+            <p className='text-base font-medium'>Beginner</p>
         </div>
     </div>
     </>

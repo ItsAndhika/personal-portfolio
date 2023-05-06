@@ -27,7 +27,7 @@ const BackSkills = () => {
         <img src={Laravel} alt="" className='w-10'/>
         <div className='text-center font-montserrat'>
             <h1 className='text-lg font-semibold'>Laravel</h1>
-            <p className='text-base font-medium'>Pre-Intermediate</p>
+            <p className='text-base font-medium'>Beginner</p>
         </div>
     </div>
     <div className='skill-card' data-aos="fade-in" data-aos-easing='ease-in-out' data-aos-once='true' data-aos-duration='2000'>
