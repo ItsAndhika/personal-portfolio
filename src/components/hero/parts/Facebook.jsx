@@ -5,7 +5,7 @@ const Facebook = () => {
     <a href="https://m.facebook.com/profile.php?id=100056986006962">
 		<svg
 			fill="#000000"
-			className="mx-2 inline w-8 mt-3 fill-black dark:fill-white lg:w-9"
+			className="mx-2 inline w-8 mt-3 fill-black dark:fill-white lg:w-9 2xl:w-20 2xl:text-left"
 			viewBox="-5.5 0 32 32"
 			version="1.1"
 			xmlns="http://www.w3.org/2000/svg"
