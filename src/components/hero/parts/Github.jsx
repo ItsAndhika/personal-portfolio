@@ -7,7 +7,7 @@ const Github = () => {
 		><svg
 			xmlns="http://www.w3.org/2000/svg"
 			fill="none"
-			className="mx-2 inline w-6 mt-3 fill-black dark:fill-white lg:w-8 2xl:w-16 2xl:text-left"
+			className="mx-2 inline w-6 mt-3 fill-black dark:fill-white lg:w-8 2xl:w-10 2xl:text-left"
 			viewBox="0 0 496 512"
 		>
 			<path

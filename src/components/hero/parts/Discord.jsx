@@ -5,7 +5,7 @@ const Discord = () => {
     <a href="https://discord.com/users/832254421835448370">
 		<svg
 			xmlns="http://www.w3.org/2000/svg"
-			className="mx-2 inline w-6 mt-3 fill-black dark:fill-white lg:w-9 2xl:w-20 2xl:text-left"
+			className="mx-2 inline w-6 mt-3 fill-black dark:fill-white lg:w-9 2xl:w-11 2xl:text-left"
 			fill="none"
 			viewBox="0 0 640 512"
 		>
