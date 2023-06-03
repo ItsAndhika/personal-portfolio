@@ -3,14 +3,16 @@ import './script/script'
 
 function App() {
   return (
-    <div className="dark:bg-primary dark:text-white font-inter overflow-x-hidden">
+    <>
       <Navbar />
-      <Hero />
-      <About />
-      <Skills />
-      <Contact />
+      <main>
+        <Hero />
+        <About />
+        <Skills />
+        <Contact />
+      </main>
       <Footer />
-    </div>
+    </>
   )
 }
 

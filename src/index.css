@@ -49,7 +49,7 @@
     }
 
     .about-me {
-        @apply w-1/2 mx-auto text-lg text-center sm:text-xl md:mx-10 lg:text-xl 2xl:text-3xl 2xl:pt-10
+        @apply px-10 py-5 mx-auto text-lg text-center sm:text-xl md:mx-10 lg:text-xl 2xl:text-3xl 2xl:pt-10
     }
 
     .skill-menu {
