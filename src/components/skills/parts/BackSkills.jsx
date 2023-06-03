@@ -1,10 +1,10 @@
 import React from 'react'
-import PHP from '../../../assets/svg/php.svg'
-import Node from '../../../assets/svg/node.svg'
-import Laravel from '../../../assets/svg/laravel.svg'
-import MySQL from '../../../assets/svg/mysql.svg'
-import PostgreSQL from '../../../assets/svg/postgresql.svg'
-import MongoDB from '../../../assets/svg/mongodb.svg'
+import PHP from '/assets/svg/php.svg'
+import Node from '/assets/svg/node.svg'
+import Laravel from '/assets/svg/laravel.svg'
+import MySQL from '/assets/svg/mysql.svg'
+import PostgreSQL from '/assets/svg/postgresql.svg'
+import MongoDB from '/assets/svg/mongodb.svg'
 
 const BackSkills = () => {
   return (

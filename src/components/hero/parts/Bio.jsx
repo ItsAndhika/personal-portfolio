@@ -4,7 +4,7 @@ import Typewriter from 'typewriter-effect'
 const Bio = () => {
   return (
     <div className='text-center lg:mr-3 lg:text-left lg:w-2/3 lg:ml-40'>
-		<h1 className='bg-gradient-to-r from-blue-600 via-purple-600 to-teal-600 bg-clip-text text-transparent text-2xl font-bold sm:text-3xl 2xl:text-6xl'>Primananda Andhika</h1>
+		<h1 className='bg-gradient-to-r from-blue-600 via-purple-600 to-teal-600 bg-clip-text text-transparent text-2xl font-bold sm:text-3xl 2xl:text-4xl'>Primananda Andhika</h1>
 		<div className='text-xl flex justify-center items-center my-2 lg:text-2xl lg:justify-start 2xl:text-3xl 2xl:my-3'>
 		<p className='text-sky-500 font-semibold mr-1.5'>I'm a </p>
 		<Typewriter 

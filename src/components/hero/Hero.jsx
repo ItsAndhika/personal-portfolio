@@ -1,5 +1,5 @@
 import React from 'react'
-import Programmer from '../../assets/img/programmer.png'
+import Programmer from '/assets/img/programmer.png'
 import Facebook from './parts/Facebook'
 import Discord from './parts/Discord'
 import Github from './parts/Github'
